@@ -4,14 +4,14 @@ const Name = () => {
   const [name, setName] = useState("");
   return (
     <div>
-      <h1 style={{ height: "50px" }}>{name}</h1>
+      <h1 style={{ height: "50px", textAlign: 'center' }}>{name}</h1>
       <form
         style={{
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          alignItems: "start",
-          gap: "10px"
+          alignItems: "center",
+          gap: "10px",
         }}
         onSubmit={(e) => {
           e.preventDefault();
@@ -32,7 +32,7 @@ const Name = () => {
             backgroundColor: "coral",
             border: "none",
             borderRadius: "5px",
-            fontWeight: "700"
+            fontWeight: "700",
           }}
           type="submit"
         >

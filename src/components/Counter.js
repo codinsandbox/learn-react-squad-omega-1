@@ -6,9 +6,9 @@ const Counter = () => {
     <div
       style={{
         display: "flex",
-        justifyContent: "start",
+        justifyContent: "center",
         alignItems: "center",
-        gap: "10px"
+        gap: "10px",
       }}
     >
       <button
@@ -18,7 +18,7 @@ const Counter = () => {
           margin: 0,
           padding: 0,
           fontSize: "25px",
-          backgroundColor: "lightpink"
+          backgroundColor: "lightpink",
         }}
         onClick={() => setCounter(counter - 1)}
       >
@@ -32,7 +32,7 @@ const Counter = () => {
           margin: 0,
           padding: 0,
           fontSize: "25px",
-          backgroundColor: "lightgreen"
+          backgroundColor: "lightgreen",
         }}
         onClick={() => setCounter(counter + 1)}
       >
