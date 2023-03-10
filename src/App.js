@@ -79,6 +79,11 @@ function App() {
           <Form />
         </div>
       </div>
+
+      {/* Use this zone to add your components if you opted to use this repo localy */}
+      <div>
+        {/* add your components here */}
+      </div>
     </div>
   );
 }
