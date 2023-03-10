@@ -2,9 +2,9 @@
 //create a multiple user list component.
 
 //Global hint when dealing with complex data types, keep in mind that mutations will
+//not update our state, have a look at the material talking about this in (lesson 2 material)
 //Try and create a separate component file when you feel the need to do so.
 
-//not update our state, have a look at the material talking about this in (lesson 2 material)
 //Dificulty lvl 1
 //Requirements
 //1. Keep it simple, just focus on the user name, no additional information
